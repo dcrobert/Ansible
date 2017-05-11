@@ -1,0 +1,11 @@
+[loadbalancer]
+lb01 ansible_ssh_host=138.197.19.67
+
+[webserver]
+app01 ansible_ssh_host=138.197.21.199
+
+[database]
+db01 ansible_ssh_host=138.197.21.215
+
+[control]
+control ansible_connection=local
